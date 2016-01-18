@@ -1,0 +1,62 @@
+.btn:hover{
+  color: white;
+  transition: 0.3s ease-in;
+  box-shadow: inset 0 0 75px 0 #000;
+}
+body {
+background: ##000000;
+background-image: url("https://dl.dropboxusercontent.com/u/27247835/FreeCodeCamp/portfolio/ZenBG-1.png"), url("https://dl.dropboxusercontent.com/u/27247835/FreeCodeCamp/portfolio/ZenBG-2.png");
+background-repeat: repeat-x, repeat;
+  background-attachment: fixed;
+}
+.tools {
+  font-style: italic;
+  padding-top: 10px;
+}
+.my-photo {
+  border-radius: 50%;
+  margin-top: 2em;
+}
+.jumbotron {
+  background-color: #fff;
+}
+.navbar {
+  background-color: #eee;
+}
+.f1_container {
+  position: relative;
+  margin: 10px auto;
+  margin-left: -15px;
+  width: 300px;
+  height: 135px;
+  z-index: 1;
+}
+.f1_container {
+  perspective: 1000;
+}
+.f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+.f1_container:hover .f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: #333;
+  font-size: 0.9em;
+}
