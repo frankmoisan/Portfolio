@@ -1,3 +1,6 @@
+.btn {
+  transition: 0.3s ease-in;
+}
 .btn:hover{
   color: white;
   transition: 0.3s ease-in;
